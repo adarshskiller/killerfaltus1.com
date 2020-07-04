@@ -1,9 +1,0 @@
-1. Need to make a website!
-2. reqirements :
-   1.HTML
-   2.CSS
-   3.Javascript
-   4.Jquery
-   5.SQL
-   6.PHP
-   6.Hosting
