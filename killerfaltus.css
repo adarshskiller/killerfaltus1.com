@@ -33,7 +33,7 @@ header {
 #banner {
     z-index: 100;
     left: 0;
-    right: 50%;
+    width: 100%;
     height: 50px;
     margin-right: -382px;
     position: fixed;
@@ -68,4 +68,17 @@ header {
 strong {
     font-weight: bold;
     color: #333;
+}
+.footer_code {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 50px;
+    background-color: #235796;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
 }
