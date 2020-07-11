@@ -67,7 +67,7 @@ header {
 }
 strong {
     font-weight: bold;
-    color: #333;
+    color: brown;
 }
 .footer_code {
     position: fixed;
@@ -81,4 +81,48 @@ a {
     color: white;
     text-decoration: none;
     padding-left: 25px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #FFE788;
+    border: 1px solid #FFE788;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 110%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {
+    background-color: #FFE788;
+    border-radius: 5px;
+}
+.Login_page {
+    float: right;
+    font-size: 20px;
+    margin-top: 12px;
+    color: black;
+    padding-right: 30px;
+}
+.search-container {
+    float: right;
+    border-radius: 10px;
+    border-color: #FFE788;
+    color: black;
+    margin-top: 10px;
+    padding: 6px;
+    margin-right: 50px;
 }
