@@ -24,6 +24,7 @@
             <!-- Login page -->
             <div >
                 <form action="" align="center" class="Login_page_design">
+                    <img src="img_avatar1.png" align="center" alt="avatar" class="avatar">
             <br>
                 <label for="username"><b>USERNAME</b></label>     <br>
 
@@ -33,9 +34,10 @@
 
              <input type="password" name="password" placeholder="PASSWORD"> <br>
 
-             <button class="Login_button">Login</button> <br>
+                <a class="Login_button"style="color: black; text-align: center;padding-left: 0px;border-radius: 20px;padding: 6px; background-color: #dba500;"
+                onclick="Store_login_info()">Login</a>   <br>
 
-             <a href="Signup.html" class="Login_page_design">Don't have an account? Signup</a>
+             <a  onclick="Opening_login_page()" class="Login_page_design">Don't have an account? Signup</a>
 
             </div>
                 </form>
@@ -48,5 +50,11 @@
                 <a href="contact.html">Contact</a>
             </footer>
         </div>
+        <script>
+            function Opening_login_page(){
+                location.replace("signup.html")
+            }
+
+        </script>
     </body>
 </html>

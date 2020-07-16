@@ -3,12 +3,13 @@ body{
      "Helvetica Neue", Helvetica, Arial,
       sans-serif;
       width: 70% fix-content;
+      cursor: default;
 }
 
 h2 {
     background-color: #235796;
-    text-align: center;
-    font: 30px/40px 'copse';
+    text-align: left;
+    font:  'copse';
     color: white;
     text-shadow: #f3f3f3;
     margin: 0px;
@@ -90,6 +91,7 @@ a {
     padding: 8px;
     background-color: #FFE788;
     border: 1px solid #FFE788;
+    color: black;
 }
 .dropdown-content {
     display: none;
@@ -98,6 +100,7 @@ a {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    color: black;
 }
 .dropdown-content a {
     color: black;
@@ -108,14 +111,20 @@ a {
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown-content a:hover {
     background-color: #FFE788;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .Login_page {
     float: right;
     font-size: 20px;
     margin-top: 14px;
-    color: black;
     padding-right: 30px;
+    cursor: pointer;
+    color: brown;
+}
+.Login_page a:hover{
+    background-color: #FFE788;
+    color: brown;
+    border-radius: 10px;
 }
 .search-container {
     float: right;
@@ -130,7 +139,7 @@ a {
 form {
     line-height: 55px;
     border: 2px solid black;
-    margin-top: 90px;
+    margin-top: 110px;
     width: 20%;
     margin-left: 40%;
     font-family: Arial, Helvetica, sans-serif;
@@ -140,14 +149,51 @@ form {
     color: black;
     line-height: 35px;
     border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 .Login_button{
     margin-top: 15px;
-    border: 1px solid black;
+    margin-bottom: 15px;
+    border: 1px solid #dba500;
     cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 50px;
+    color: black;
 }
-input[type=username], input[type=password] {
+input[type=username], input[type=password], input[type=email] {
     border-radius: 10px;
+    border-color: #dba500;
     width: 70%;
     padding: 7px;
+}
+/* signup login page */
+form {
+    line-height: 55px;
+    border: 2px solid black;
+    margin-top: 30px;
+    width: 20%;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bolder;
+}
+.Signup_page_design{
+    color: black;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.avatar {
+    margin-top: 2px;
+    width: 80px;
+    height: 80px
+}
+.Engineering-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 110%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black;
 }
